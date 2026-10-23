@@ -1,0 +1,68 @@
+{
+  "mission": 0,
+  "navigate": {
+    "connection_string": "/dev/ttyACM0,57600",
+    "attack_lat_default": 30.5027272,
+    "attack_lon_default": 120.1077792,
+    "centerpoint_lat":30.5027272,
+    "centerpoint_lon":120.1077792,
+    "region_DEG":270,
+    "region_EDGE":60,
+    "pose_fps": 10,
+
+    "BATTERY_CELL_COUNT":6,
+    "ACC_R":15,
+    "LAUNCH_ALTITUDE":30,
+    "LAUNCH_SPEED":25,
+    "DETECT_LOOP":1,
+    "DETECT_ALTITUDE":30,
+    "DETECT_SPEED":15,
+    "DETECT_R":15,
+
+    "ATTACK_LOOP":2,
+    "ATTACK_ALTITUDE":10,
+    "ATTACK_SPEED":15,
+    "ATTACK_R":20,
+    "DROP_WP_DIS":5,
+    
+    "RTL_R": 25,
+    "RTL_ALTITUDE": 30,
+    "LAND_WAYPOINT_FILE_PATH": "./config/moganshan_loiter.waypoints"
+  },
+  "drop": {
+    "correction_t": 0,
+    "servo_channel": 9
+  },
+  "detect": {
+    "MIN_SAMPLES": 5,
+    "EPS_METERS": 10,
+    "MIN_CLUSTER_SIZE": 6,
+    "ALIGN_THRESHOLD": 10
+  },
+  "locate": {
+    "fx": 1503.7,
+    "fy": 1475.0,
+    "centerx": 960,
+    "centery": 540
+  },
+  "mqtt_receiver": {
+    "BROKER_IP": "192.168.144.27",
+    "PORT": 1883,
+    "TOPIC": "filename",
+    "COMMAND_TOPIC": "command",
+    "do_raspi_check": 1
+  },
+  "rtsp": {
+    "rtsp_url": "rtsp://192.168.144.27:8554/durant",
+    "width": 1920,
+    "height": 1080,
+    "mediamtx_path": "/home/thuair/mediamtx/mediamtx",
+    "mediamtx_conf_path": "/home/thuair/mediamtx/mediamtx.yml"
+  },
+  "yolo": {
+    "modelpath_extract_tianjing_blue": "./model/812_blue_n.engine",
+    "modelpath_extract_tianjing_red": "./model/812_red_n.engine",
+    "modelpath_number": "./model/812_num_n.engine",
+    "modelpath_graph": "./model/hjc_graph_obb2.engine"
+  }
+}

@@ -1,0 +1,8 @@
+__pycache__
+log_test*
+output*.jpg
+result*.jpg
+result.jpg
+*.mp4
+picture_nfs
+log_*

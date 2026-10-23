@@ -1,0 +1,8 @@
+"OriginalSource","PublishedPath","OriginalContentLinesChecked","MissingContentLines","CredentialRedactions","Note"
+"cuadc2026_uav_thuair\cuadc2025+analyse\README.md","2025\航电设计\01-系统架构.md","81","0","0","原技术正文保留；移除写作感叹，未完成模块说明保留"
+"cuadc2026_uav_thuair\cuadc2025+analyse\docs\2025飞机启动方法.md","2025\使用说明\系统启动与操作流程.md","136","0","2","技术正文保留；原始两处口令及其占位提示均不公开"
+"cuadc2026_uav_thuair\cuadc2025+analyse\docs\2025图像-位姿对齐系统介绍.md","2025\航电设计\02-图像与位姿对齐.md","128","0","0","按完整原句覆盖核对；允许标题、顺序、排版和图片路径变化"
+"cuadc2026_uav_thuair\cuadc2025+analyse\note\note_navigate.md","2025\程序\jetson\note\note_navigate.md","323","0","0","技术正文及代码保留；删除参考网站可用性的个人吐槽"
+"cuadc2026_uav_thuair\cuadc2025+analyse\rpi5-2025\README.md","2025\程序\rpi5\README.md","33","0","0","删除个人仓库链接、内部镜像索取和感叹；个人用户名路径统一，技术配置及步骤保留"
+"cuadc\analyse\图像-位姿对齐.md","2025\航电设计\02-图像与位姿对齐.md","96","0","0","按完整原句覆盖核对；允许标题、顺序、排版和图片路径变化"
+"cuadc\README.md","2025\航电设计\01-系统架构.md","81","0","0","原技术正文保留；移除写作感叹，未完成模块说明保留"

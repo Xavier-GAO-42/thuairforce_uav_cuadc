@@ -1,0 +1,30 @@
+{
+  "Scope": "准备开源目录；原始仓库未修改",
+  "Removed": [
+    "两处旧口令占位注释",
+    "包含个人仓库链接的部署感叹",
+    "向内部人员索取镜像的段落，改为镜像未提供的事实说明",
+    "自启动示例中的个人用户名，统一到现有部署路径",
+    "写作感叹和与技术无关的抱怨",
+    "复盘中的个人姓名，仅保留现场补充及技术异议"
+  ],
+  "TextScan": {
+    "CredentialAssignments": 0,
+    "Email": 0,
+    "Phone": 0,
+    "RemovedPersonalStrings": 0
+  },
+  "BinaryScan": {
+    "Files": 23,
+    "CredentialPatterns": 0,
+    "ModelPickleEntryCredentialPatterns": 0,
+    "EmailLikeMatch": "1处位于JPEG压缩图像数据内，确认为二进制误匹配，图片未改动"
+  },
+  "Preserved": [
+    "源码逻辑",
+    "实验坐标与历史任务配置",
+    "私网通信地址和设备部署路径",
+    "技术推导、过程及不确定判断",
+    "模型、CAD和图片"
+  ]
+}

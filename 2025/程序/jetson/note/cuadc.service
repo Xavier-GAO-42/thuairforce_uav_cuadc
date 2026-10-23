@@ -1,0 +1,13 @@
+[Unit]
+Description=CUADC Service
+
+[Service]
+# 设置工作目录为你的脚本所在目录
+WorkingDirectory=/home/thuair/CUADC
+ExecStart=/usr/bin/python3 /home/thuair/CUADC/main.py
+
+User=thuair
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
