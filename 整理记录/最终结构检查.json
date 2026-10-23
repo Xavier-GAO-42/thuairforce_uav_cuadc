@@ -1,7 +1,27 @@
 {
   "OriginalMaterials": 90,
   "MissingMaterialFiles": 0,
-  "ChangedCodeModelImageCadConfigFiles": 0,
+  "UnchangedOriginalFilesHashChecked": 82,
+  "DesktopAddedFiles": 15,
+  "DesktopAddedFilesSourceHashMatched": 15,
+  "Editable3MF": 1,
+  "3MFArchiveIntegrity": "PASS",
+  "FinalParameterItems": 958,
+  "CompetitionMissions": {
+    "东侧方向-侦察3轮.waypoints": 14,
+    "东侧方向-侦察4轮.waypoints": 17,
+    "东侧方向-降落.waypoints": 3,
+    "西侧方向-侦察3轮.waypoints": 13,
+    "西侧方向-侦察4轮.waypoints": 17,
+    "西侧方向-降落.waypoints": 3
+  },
   "BrokenLinks": 0,
-  "Sanitization": "仅公开准备目录内个人或无关文字清理，详见敏感信息检查.json"
+  "NewTextAnd3MFMetadataSensitivePatternFindings": 0,
+  "Unconfirmed": [
+    "参数对应机体与固件",
+    "航点 Home 与任务目标位置不一致",
+    "3MF 机身对象 2%/3% 填充差异",
+    "CAD 几何与实际制造未验收"
+  ],
+  "ValidationBoundary": "文件、来源哈希、文档链接、任务格式及元数据检查；未运行飞控、仿真、硬件、切片或 CAD 装配验收"
 }
